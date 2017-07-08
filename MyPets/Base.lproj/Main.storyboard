@@ -56,7 +56,7 @@
             </objects>
             <point key="canvasLocation" x="1076" y="138.98050974512745"/>
         </scene>
-        <!--Pet Table View Controller-->
+        <!--Pets-->
         <scene sceneID="xXf-ZZ-fnh">
             <objects>
                 <viewController id="Upq-S6-QEw" customClass="PetTableViewController" customModule="MyPets" customModuleProvider="target" sceneMemberID="viewController">
@@ -95,6 +95,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Pets" id="nJG-g1-pvJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="HTN-si-gZI">
+                            <connections>
+                                <segue destination="BeQ-d6-vde" kind="show" id="SCQ-9b-gPx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="oetTable" destination="fEn-HK-hKP" id="iXc-b9-1b3"/>
                     </connections>
@@ -102,6 +109,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gC-Jk-696" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1908" y="138.98050974512745"/>
+        </scene>
+        <!--New Pet-->
+        <scene sceneID="fT0-Rn-zhb">
+            <objects>
+                <viewController title="New Pet" id="BeQ-d6-vde" customClass="addPetController" customModule="MyPets" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zBr-Ck-BAy"/>
+                        <viewControllerLayoutGuide type="bottom" id="NHz-Gr-a8N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pcx-5P-9QG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pet Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdp-Gb-nOi">
+                                <rect key="frame" x="48" y="93" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pet Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0oQ-G1-C3W">
+                                <rect key="frame" x="48" y="129" width="317" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="petName"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Pet" id="xId-fd-xwI">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="KPl-Rx-ogZ">
+                            <connections>
+                                <action selector="addPet:" destination="BeQ-d6-vde" id="y9i-eV-NWW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="petName" destination="0oQ-G1-C3W" id="4gO-YB-BNt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bqj-fn-koT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2741.5999999999999" y="129.98500749625188"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hyf-qx-ZLT">

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3164200D1F11469C006839C3 /* PetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3164200C1F11469C006839C3 /* PetTableViewController.swift */; };
+		3164200F1F115F09006839C3 /* addPetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3164200E1F115F09006839C3 /* addPetController.swift */; };
 		319AC70B1F1134E20084FDFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC70A1F1134E20084FDFC /* AppDelegate.swift */; };
 		319AC70D1F1134E20084FDFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC70C1F1134E20084FDFC /* ViewController.swift */; };
 		319AC7101F1134E20084FDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319AC70E1F1134E20084FDFC /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		3164200C1F11469C006839C3 /* PetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableViewController.swift; sourceTree = "<group>"; };
+		3164200E1F115F09006839C3 /* addPetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addPetController.swift; path = ../addPetController.swift; sourceTree = "<group>"; };
 		319AC7071F1134E20084FDFC /* MyPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319AC70A1F1134E20084FDFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319AC70C1F1134E20084FDFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		319AC7091F1134E20084FDFC /* MyPets */ = {
 			isa = PBXGroup;
 			children = (
+				3164200E1F115F09006839C3 /* addPetController.swift */,
 				319AC70A1F1134E20084FDFC /* AppDelegate.swift */,
 				319AC70C1F1134E20084FDFC /* ViewController.swift */,
 				319AC70E1F1134E20084FDFC /* Main.storyboard */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					319AC7061F1134E10084FDFC = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 43A3T6HE6Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,6 +146,7 @@
 				319AC70D1F1134E20084FDFC /* ViewController.swift in Sources */,
 				319AC70B1F1134E20084FDFC /* AppDelegate.swift in Sources */,
 				3164200D1F11469C006839C3 /* PetTableViewController.swift in Sources */,
+				3164200F1F115F09006839C3 /* addPetController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +269,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43A3T6HE6Y;
 				INFOPLIST_FILE = MyPets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Mio.MyPets;
+				PRODUCT_BUNDLE_IDENTIFIER = MyPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,9 +282,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43A3T6HE6Y;
 				INFOPLIST_FILE = MyPets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Mio.MyPets;
+				PRODUCT_BUNDLE_IDENTIFIER = MyPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
