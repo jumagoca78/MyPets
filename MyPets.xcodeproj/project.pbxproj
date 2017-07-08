@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3164200D1F11469C006839C3 /* PetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3164200C1F11469C006839C3 /* PetTableViewController.swift */; };
 		319AC70B1F1134E20084FDFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC70A1F1134E20084FDFC /* AppDelegate.swift */; };
 		319AC70D1F1134E20084FDFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC70C1F1134E20084FDFC /* ViewController.swift */; };
 		319AC7101F1134E20084FDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319AC70E1F1134E20084FDFC /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3164200C1F11469C006839C3 /* PetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableViewController.swift; sourceTree = "<group>"; };
 		319AC7071F1134E20084FDFC /* MyPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319AC70A1F1134E20084FDFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319AC70C1F1134E20084FDFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				319AC7111F1134E20084FDFC /* Assets.xcassets */,
 				319AC7131F1134E20084FDFC /* LaunchScreen.storyboard */,
 				319AC7161F1134E20084FDFC /* Info.plist */,
+				3164200C1F11469C006839C3 /* PetTableViewController.swift */,
 			);
 			path = MyPets;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				319AC70D1F1134E20084FDFC /* ViewController.swift in Sources */,
 				319AC70B1F1134E20084FDFC /* AppDelegate.swift in Sources */,
+				3164200D1F11469C006839C3 /* PetTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				319AC71B1F1134E20084FDFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
