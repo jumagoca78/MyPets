@@ -14,6 +14,7 @@
 		319AC7101F1134E20084FDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319AC70E1F1134E20084FDFC /* Main.storyboard */; };
 		319AC7121F1134E20084FDFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319AC7111F1134E20084FDFC /* Assets.xcassets */; };
 		319AC7151F1134E20084FDFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319AC7131F1134E20084FDFC /* LaunchScreen.storyboard */; };
+		31E8B52D1F1A8B7800133C01 /* PetdetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E8B52C1F1A8B7800133C01 /* PetdetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		319AC7111F1134E20084FDFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		319AC7141F1134E20084FDFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		319AC7161F1134E20084FDFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E8B52C1F1A8B7800133C01 /* PetdetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetdetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				319AC7131F1134E20084FDFC /* LaunchScreen.storyboard */,
 				319AC7161F1134E20084FDFC /* Info.plist */,
 				3164200C1F11469C006839C3 /* PetTableViewController.swift */,
+				31E8B52C1F1A8B7800133C01 /* PetdetailViewController.swift */,
 			);
 			path = MyPets;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				319AC70D1F1134E20084FDFC /* ViewController.swift in Sources */,
 				319AC70B1F1134E20084FDFC /* AppDelegate.swift in Sources */,
 				3164200D1F11469C006839C3 /* PetTableViewController.swift in Sources */,
+				31E8B52D1F1A8B7800133C01 /* PetdetailViewController.swift in Sources */,
 				3164200F1F115F09006839C3 /* addPetController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

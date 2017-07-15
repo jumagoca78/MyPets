@@ -9,7 +9,7 @@
 import UIKit
 
 
-class PetTableViewController: UIViewController, UITableViewDataSource {
+class PetTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var pets=[
         "Silver",
@@ -33,6 +33,7 @@ class PetTableViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         
         self.oetTable.dataSource = self
+        self.oetTable.delegate = self
         
 
     }
@@ -58,6 +59,14 @@ class PetTableViewController: UIViewController, UITableViewDataSource {
         cell?.textLabel?.text = pets [indexPath.row]
         
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let oetSelected = pets[indexPath.row]
+        let petDetailVC = self.storyboard?.instantiateViewController(withIdentifier: "nombrePerroView") as! PetdetailViewController
+        petDetailVC.petName = oetSelected
+        
+        self.navigationController?.pushViewController(petDetailVC, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

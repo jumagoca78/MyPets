@@ -155,6 +155,36 @@
             </objects>
             <point key="canvasLocation" x="2741.5999999999999" y="129.98500749625188"/>
         </scene>
+        <!--Petdetail View Controller-->
+        <scene sceneID="Ifw-FO-azh">
+            <objects>
+                <viewController storyboardIdentifier="nombrePerroView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zXz-xA-jlW" customClass="PetdetailViewController" customModule="MyPets" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KPc-A3-ltR"/>
+                        <viewControllerLayoutGuide type="bottom" id="n21-5k-RUF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UYD-DL-Faa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roE-XM-4wH">
+                                <rect key="frame" x="48" y="114" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="name" destination="roE-XM-4wH" id="8Hh-hO-YXi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27F-6f-5jn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2742" y="869"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="hyf-qx-ZLT">
             <objects>
